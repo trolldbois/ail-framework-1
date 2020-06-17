@@ -10,7 +10,7 @@ signalListener() {
 }
 
 
-source ./AILENV/bin/activate
+# source ./AILENV/bin/activate
 cd bin
 ./LAUNCH.sh -l
 ./LAUNCH.sh -f

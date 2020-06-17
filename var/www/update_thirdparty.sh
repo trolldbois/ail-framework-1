@@ -105,18 +105,18 @@ wget -q https://www.circl.lu/assets/images/logos/AIL.png -O AIL.png
 wget -q https://www.circl.lu/assets/images/logos/AIL-logo.png -O AIL-logo.png
 popd
 
-if ! [[ -n "$AIL_HOME" ]]
-then
-    #active virtualenv
-    source ./../../AILENV/bin/activate
-fi
+#if ! [[ -n "$AIL_HOME" ]]
+#then
+    ##active virtualenv
+    #source ./../../AILENV/bin/activate
+#fi
 
 #Update MISP Taxonomies and Galaxies
-python3 -m pip install git+https://github.com/MISP/PyTaxonomies --upgrade
-python3 -m pip install git+https://github.com/MISP/PyMISPGalaxies --upgrade
+#python3 -m pip install git+https://github.com/MISP/PyTaxonomies --upgrade
+#python3 -m pip install git+https://github.com/MISP/PyMISPGalaxies --upgrade
 
 #Update PyMISP
-python3 -m pip install git+https://github.com/MISP/PyMISP --upgrade
+#python3 -m pip install git+https://github.com/MISP/PyMISP --upgrade
 
 #Update the Hive
-python3 -m pip install thehive4py --upgrade
+#python3 -m pip install thehive4py --upgrade
